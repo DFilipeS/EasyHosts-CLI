@@ -1,0 +1,5 @@
+C:\Users\Daniel\Development\C#\EasyHosts CLI\EasyHosts CLI\bin\Release\EasyHosts CLI.exe.config
+C:\Users\Daniel\Development\C#\EasyHosts CLI\EasyHosts CLI\bin\Release\EasyHosts CLI.exe
+C:\Users\Daniel\Development\C#\EasyHosts CLI\EasyHosts CLI\bin\Release\EasyHosts CLI.pdb
+C:\Users\Daniel\Development\C#\EasyHosts CLI\EasyHosts CLI\obj\Release\EasyHosts CLI.exe
+C:\Users\Daniel\Development\C#\EasyHosts CLI\EasyHosts CLI\obj\Release\EasyHosts CLI.pdb

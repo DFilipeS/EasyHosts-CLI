@@ -1,0 +1,6 @@
+C:\Users\Daniel\Development\C#\EasyHosts CLI\EasyHosts CLI\bin\Debug\EasyHosts CLI.exe.config
+C:\Users\Daniel\Development\C#\EasyHosts CLI\EasyHosts CLI\bin\Debug\EasyHosts CLI.exe
+C:\Users\Daniel\Development\C#\EasyHosts CLI\EasyHosts CLI\bin\Debug\EasyHosts CLI.pdb
+C:\Users\Daniel\Development\C#\EasyHosts CLI\EasyHosts CLI\obj\Debug\EasyHosts CLI.exe
+C:\Users\Daniel\Development\C#\EasyHosts CLI\EasyHosts CLI\obj\Debug\EasyHosts CLI.pdb
+C:\Users\Daniel\Development\C#\EasyHosts CLI\EasyHosts CLI\obj\Debug\EasyHosts CLI.csprojResolveAssemblyReference.cache
