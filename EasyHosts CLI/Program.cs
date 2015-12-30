@@ -61,7 +61,7 @@ namespace EasyHosts_CLI
                     stringBuilder.Append(tokens[i]);
                 }
 
-                file.WriteLine(stringBuilder.ToString());
+                file.Write("\n" + stringBuilder.ToString());
             }
 
             readHostsFile();
@@ -163,7 +163,7 @@ namespace EasyHosts_CLI
                 file.WriteLine();
                 foreach (string hostEntry in hostsList)
                 {
-                    file.WriteLine(hostEntry);
+                    file.Write("\n" + hostEntry);
                 }
             }
         }
