@@ -55,6 +55,7 @@ namespace EasyHosts_CLI
                 Console.Clear();
                 printHeader(false);
             }
+            System.Diagnostics.Process.Start("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
         }
 
         private static void processAddCommand(string[] tokens)
