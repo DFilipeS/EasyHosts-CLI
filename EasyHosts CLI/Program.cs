@@ -30,7 +30,7 @@ namespace EasyHosts_CLI
             while ((userInput = Console.ReadLine()) != "exit")
             {
                 // tokens[0] is the commmand (add or remove)
-                // tokens[1] to tokebs[n] are the command arguments
+                // tokens[1] to tokens[n] are the command arguments
                 string[] tokens = userInput.Split(' ');
 
                 if (userInput.StartsWith("add"))
