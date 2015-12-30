@@ -25,7 +25,7 @@ namespace EasyHosts_CLI
             }
 
             readHostsFile();
-            printHeader();
+            printHeader(false);
 
             while ((userInput = Console.ReadLine()) != "exit")
             {
@@ -41,9 +41,15 @@ namespace EasyHosts_CLI
                 {
                     processRemoveCommand(tokens);
                 }
+                else if (userInput.Equals("list"))
+                {
+                    Console.Clear();
+                    printHeader(true);
+                    continue;
+                }
 
                 Console.Clear();
-                printHeader();
+                printHeader(false);
             }
         }
 
@@ -90,15 +96,20 @@ namespace EasyHosts_CLI
             }
         }
 
-        private static void printHeader()
+        private static void printHeader(bool printHosts)
         {
             Console.WriteLine("EasyHosts CLI Tool v1.0 - Daniel Filipe Silva");
             Console.WriteLine();
-            Console.WriteLine("Current hosts file entries:");
-            printHostsList();
+            
+            if (printHosts)
+            {
+                Console.WriteLine("Current hosts file entries:");
+                printHostsList();
+                Console.WriteLine();
+            }
 
-            Console.WriteLine();
             Console.WriteLine("Available actions:");
+            Console.WriteLine("\tlist");
             Console.WriteLine("\tadd [IP address] [hostname]");
             Console.WriteLine("\tremove [entry id]");
             Console.WriteLine("\texit");
