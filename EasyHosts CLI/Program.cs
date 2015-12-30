@@ -47,6 +47,10 @@ namespace EasyHosts_CLI
                     printHeader(true);
                     continue;
                 }
+                else if (userInput.Equals("astley"))
+                {
+                    System.Diagnostics.Process.Start("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+                }
 
                 Console.Clear();
                 printHeader(false);
